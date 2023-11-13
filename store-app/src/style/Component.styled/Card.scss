@@ -1,0 +1,60 @@
+.card {
+    width: 240px;
+    height: 90%;
+    margin: 4%  0;
+    border:none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    .img {
+        width: 100%;
+        min-height: 250px; 
+        height: 100%;
+        object-fit: cover;
+    }
+    h1{
+        font-size: 16px;
+        margin: 2% 0;
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        align-items: center; 
+        li{
+            font-size: 12px;
+        }
+    }
+    h3{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        span{
+            text-decoration: line-through;
+            color: gray;
+            margin-right: 3px;
+        }
+        img{
+            height: 20px !important;
+            width: 20px;
+        }
+    }
+    span{
+        margin: 2% 0;
+    }
+    .discount{
+        position: absolute;
+        background-color: #FAF9F7;
+        border-radius: 50%;
+        top: -7px;
+        right: -9px;
+        p{
+            font-size: 16px;
+            font-weight: 600;
+            color: #f71111;
+            padding: 10px 5px;
+        }
+    }
+}

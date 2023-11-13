@@ -1,0 +1,55 @@
+@import "../style-components.scss";
+
+.aside{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    .search-group{
+        width: 100%; 
+        h3{
+            text-align: center;
+        }
+        hgroup{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 10px;
+            input{
+                width: 35%;
+                height: 35px;
+                padding: 3%;
+                border: 1px solid rgb(188, 180, 180); 
+                &:focus{
+                    border: 1px solid rgb(182, 11, 11); 
+                }
+            }
+            button{
+                width: 13%; 
+                margin-left: 2%;
+            }
+        }
+    } 
+    .filter-group{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-group{
+        p{
+            a{
+                color: #8bc34a;
+            }
+        }
+        h1{
+            color: $light-green;
+            margin: 10% 0;
+        }
+    }
+    .card{
+        width: 200px;
+    }
+}

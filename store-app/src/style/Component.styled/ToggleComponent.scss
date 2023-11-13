@@ -1,0 +1,23 @@
+@import "../../style/style-components.scss";
+.toggle-container{
+    width: 40%;
+    height: 20%;   
+    @media screen and (max-width: 600px){  
+        width: 90%; 
+    }
+    .icon{
+        width: 100%;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $ff-Open-Sans;
+        border-bottom: 3px solid $light-gray;
+    }
+    .text{
+        width: 100%;
+        padding: 10px 15px; 
+    }
+} 

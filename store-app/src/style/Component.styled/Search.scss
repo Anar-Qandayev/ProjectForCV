@@ -1,0 +1,12 @@
+.search{
+    width: 25%;  
+    .search-data{  
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
+        margin: 10px 0;
+        img{
+            width: 100%;
+        }
+    }
+}

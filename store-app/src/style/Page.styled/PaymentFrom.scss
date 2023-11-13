@@ -1,0 +1,95 @@
+@import "../style-components.scss";
+.container{
+    width: 100%;
+    padding: 3% 7%;
+    hgroup{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        h1{
+            font-family:  $ff-Merriweather;
+        }
+        button{
+            padding: 15px;
+        }
+    }
+    hr{
+        width: 100%;
+        margin: 2% 0 ;
+        height: 5px;
+        background-color: #8BC34A;
+        border-radius: 15px;
+    }
+    .payment-head{
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        h2{  
+            padding-top: 5%;
+            display: flex; 
+            align-items: center;
+            img{
+                width: 20px;
+            }
+        }
+        .payment{
+            width: 100%;
+            min-height: 50vh;
+            background-color:#F8F6F3;
+            height: auto ;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            form{   
+                width: 40%;
+                height: 30vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                input{
+                    width: 50%;
+                    padding: 10px 10px;
+                    border: 1px solid lightgray;
+                    border-radius: 5px; 
+                }
+            }
+        }
+        .contact{
+            width: 63%;
+            padding-right: 1.5%;  
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            hgroup{
+                width: 40%;
+                display: flex;
+                flex-direction: column; 
+                label{
+                    display: flex;
+                    align-items: center;
+                    &::before{
+                        content: "*";
+                        color: red;
+                        margin-right: 2px ;
+                    }
+                }
+                input{
+                    width: 100%;
+                    padding: 10px ; 
+                    border: 1px solid lightgray;
+                    border-radius: 5px; 
+                }
+            }
+        }
+        button{ 
+            width: 100%;
+            margin: 2% 0;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 600
+        }
+    }
+}

@@ -1,0 +1,62 @@
+// ? Components...
+@import "./Component.styled/Aside.scss";
+@import "./Component.styled/Footer.scss";
+@import "./Component.styled/Card.scss";
+@import "./Component.styled/Button.scss";
+@import "./Component.styled/CardDetail.scss";
+@import "./Component.styled/Search.scss"; 
+@import "./Component.styled/ToggleComponent.scss"; 
+
+// ! Pages...
+@import "./Page.styled/About.scss";
+@import "./Page.styled/Everything.scss"; 
+@import "./Page.styled/Login.scss";
+@import "./Page.styled/Dashboard.scss";
+@import "./Page.styled/ProductDetails.scss";
+@import "./Page.styled/Basket.scss";
+@import "./Page.styled/bsProduct.scss";
+@import "./Page.styled/FreshProduct.scss";
+@import "./Page.styled/TrendingProduct.scss";
+@import "./Page.styled/Groceries.scss";
+@import "./Page.styled/Juice.scss";
+@import "./Page.styled/Contact.scss";
+@import "./Page.styled/Introduction.scss";
+@import "./Page.styled/Features.scss";
+@import "./Page.styled/Reviews.scss";
+@import "./Page.styled/SearchProducts.scss";
+@import "./Page.styled/PaymentFrom.scss";
+@import "./Page.styled/Register.scss";
+
+// All style...
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #FAF9F7;
+    main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        input{
+            &:focus{
+                outline: none;
+            }
+        }
+        .btnClick {
+            width: 80%;
+            height: 10vh;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 15px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}

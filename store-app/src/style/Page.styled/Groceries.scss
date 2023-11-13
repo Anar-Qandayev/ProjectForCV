@@ -1,0 +1,15 @@
+.products{
+    width: 100%;
+    padding: 3% 0 3%  3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    aside{
+        width: 27%;   
+        border-right: 1px solid black;
+    }
+    .shop{
+        width: 73%; 
+    }
+}

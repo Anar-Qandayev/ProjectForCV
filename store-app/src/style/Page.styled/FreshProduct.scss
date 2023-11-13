@@ -1,0 +1,19 @@
+.freshProduct{
+    width: 70%;
+    height: 70vh;
+    padding: 5% 0;
+    background-color: #F8F6F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    position: relative;
+      @media screen and (max-width: 830px){  
+        height: auto;
+    }
+    .base-leaf{
+        width: 13%;
+        position: absolute;
+        top: -30px;  
+      }
+    
+}

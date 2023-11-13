@@ -1,0 +1,53 @@
+React JavaScript-in kitabxanasıdır.
+Kitabxana və framework arasinda ferq:
+Framework bir neche kitabxanani birlikde saxlayir.
+
+React-da Server sayt rending yoxdur.
+
+React-i qosarken folder yaradiriq sonra cmd(terminal) aciriq ve yaziriq:
+       npx create-react-app appName-app
+
+bununla reacti folderimizde yaradiriq.
+
+appName-e kecmek uchun biz cd yazmaliyiq.
+appName-e kecirik ve npm start yaziriq.
+ 
+
+SASS-la isleyeceyik deye biz terminala:
+          npm install sass
+yazmaliyiq.
+
+Axios işlətmək üçün 
+       npm i Axios
+yazıb axios yükləyirik
+
+Gitignore file-na yazilan file-ler githuba push ederken push edilmir.
+
+Eger file html render edirse (return edirse) file .jsx formatinda olmalidir.
+js return edirse .js formatinda olmalidir.
+
+
+her sey qaydasindadirsa biz lazimsiz fayllari silirik
+
+Sildikden sonra qalacaq file-ler:
+Public folderinde  index.html
+src folderinde App.js , Index.js
+
+Sonra biz component , style , image , page ,utilis  folderi yaradiriq
+
+
+HTML-class=React-className
+
+Export vs Export default componentName
+
+export- olanda import {product} from "./components/Card" olur
+export default componentName- olanda ise import Header from "./components/Header/Header.jsx" olur.
+
+Eger file html return edirse bu zaman export default componentName olur
+Yox eger js return edirse bu zaman export olur
+
+
+Hooklardan istifade ucun reactdan kitabxana endirmek lazimdir. 
+import React , {useState} from "react";
+
+Hook-lardan istifade zamani useState() -de deyer her click-de deyisende component yeniden render olunur.

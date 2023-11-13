@@ -1,0 +1,114 @@
+@import "../../style/style-components.scss";
+#reviews{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/logo-leaf2-free-img.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 37% auto;
+    transition: background .3s,border-radius .3s,opacity .3s;
+    .container{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: space-evenly;
+      background: linear-gradient(#FFFFFF, #e8e6e5);
+      opacity: 0.9;
+      h1{
+        font-size: 2rem;
+        font-family: $ff-Merriweather;
+      }
+      .reviews-cards{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: flex-end; 
+        justify-content: space-evenly;  
+        padding: 0 12% ;
+        @media screen and (max-width: 950px){ 
+          height: auto;  
+          align-items: center;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .reviews-card{
+          width: 325px;
+          height: 65%;
+          padding: 3% 2%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content:space-evenly;
+          background-color: #fff;
+          border-radius: 5px;
+          p{
+            text-align: center;
+          }
+          ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          hgroup{
+            display: flex;
+            align-items: center;
+          }
+        }
+        .reviews-base{
+          width: 325px;
+          height: 85%;  
+          position: relative;
+          display: flex; 
+          justify-content: center;
+          border-radius: 5px;  
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+            @media screen and (max-width: 950px){ 
+              height:  300px
+            }
+          }
+          .reviews-bg{
+            width: 80%;
+            height: 100%; 
+            display: flex;
+            font-family:$ff-Merriweather;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute; 
+            color: #fff;
+            h3{
+              font-size: 2rem;
+              text-align: center;
+            }
+            p{
+              text-align: center;
+              line-height: 30px;
+            }
+            button{
+              width: 150px;
+              height: 50px;
+              margin: 5% 0;
+              padding-left:15% ;
+            }
+          }
+        }
+      }
+      .colleagues-logo{
+        width: 100%;
+        height: 30%; 
+        padding: 0 12% ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        img{
+          width: 16%;
+        }
+      }
+    }
+  }
